@@ -1,9 +1,10 @@
 def bfs(graph, start, target):
     """
     Breadth-first search algorithm.
-    :param graph: Graph to search. 2D array.
-    :param start: Starting node (row, col). Tuple.
-    :param target: Target node. Integer.
+
+    graph: Graph to search. 2D array.
+    start: Starting node (row, col). Tuple.
+    target: Target value. Integer.
     """
 
     # Initialize queue for BFS
