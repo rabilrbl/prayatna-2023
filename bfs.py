@@ -69,9 +69,9 @@ if __name__ == "__main__":
 
     # Graph to search
     graph = [
-        [1, 0, 0, 0],
-        [0, 2, 0, 0],
-        [0, 0, 2, 0],
+        [0, 0, 0, 0],
+        [0, 0, 0, 0],
+        [0, 0, 1, 0],
         [0, 0, 0, 0]
     ]
 
@@ -79,7 +79,7 @@ if __name__ == "__main__":
     start = (0, 0)
 
     # Target node
-    target = 2
+    target = 1
 
     # Run BFS
     result = bfs(graph, start, target)
