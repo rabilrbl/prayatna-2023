@@ -5,6 +5,7 @@ Given a graph, find all possible paths between two nodes.
 Start node and target node are given.
 
 Sample Input:
+[(0,0), (3,3)] # Start node, target node
 [
     [1, 0, 0, 0],
     [0, 0, 0, 0],
